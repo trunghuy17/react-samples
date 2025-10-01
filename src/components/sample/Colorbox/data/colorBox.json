@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "text": "red",
+    "backgroundColor": "red"
+  },
+  {
+    "id": 2,
+    "text": "yellow",
+    "backgroundColor": "yellow"
+  },
+  {
+    "id": 3,
+    "text": "aqua",
+    "backgroundColor": "aqua"
+  },
+  {
+    "id": 4,
+    "text": "purple",
+    "backgroundColor": "purple"
+  }
+]

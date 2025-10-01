@@ -1,0 +1,15 @@
+.box-color{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+}
+.box{
+    height: 50px;
+    width: 45%;
+    margin: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+}

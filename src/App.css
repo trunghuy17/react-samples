@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+hr{
+  opacity: 0.3;
+}
+
 .title {
   font-size: 32px;
   font-weight: 700;

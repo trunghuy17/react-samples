@@ -3,7 +3,7 @@ import JobBoardDemo from "./JobBoardDemo";
 function JobBoard() {
   return (
     <div className="p-5">
-      <div className="jobboard-requiremnts">
+      <div className="jobboard-requirements">
         <h2 className="mb-2 text-2xl font-semibold text-gray-900 flex items-center">
           Requirements
         </h2>
@@ -23,7 +23,7 @@ function JobBoard() {
             </li>
           </ul>
           <h2 className="mb-2 text-lg font-semibold text-gray-900 flex items-center">
-            Requirements
+            API
           </h2>
           <ul className='class="space-y-1 text-gray-500 list-disc list-inside mt-5 ml-5"'>
             <li>

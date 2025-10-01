@@ -12,10 +12,10 @@ function App() {
       <SideBar />
       <div className="p-4 sm:ml-64 w-full">
         <Routes>
-          <Route path="/traffic-light" element={<TrafficLight />} />
-          <Route path="/job-board" element={<JobBoard />} />
-          <Route path="/color-box" element={<ColorBox />} />
           <Route path="/accordion" element={<Accordion />} />
+          <Route path="/job-board" element={<JobBoard />} />
+          <Route path="/traffic-light" element={<TrafficLight />} />
+          <Route path="/color-box" element={<ColorBox />} />
         </Routes>
       </div>
     </div>

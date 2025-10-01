@@ -1,0 +1,25 @@
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
+import SideBar from "./components/layout/SideBar";
+import TrafficLight from "./components/sample/TrafficLightSample/TrafficLight";
+import JobBoard from "./components/sample/JobBoardSample/JobBoard";
+import ColorBox from "./components/sample/Colorbox/ColorBox";
+import Accordion from "./components/sample/Accordion/Accordion";
+
+function App() {
+  return (
+    <div className="flex min-h-screen bg-gray-100">
+      <SideBar />
+      <div className="p-4 sm:ml-64 w-full">
+        <Routes>
+          <Route path="/traffic-light" element={<TrafficLight />} />
+          <Route path="/job-board" element={<JobBoard />} />
+          <Route path="/color-box" element={<ColorBox />} />
+          <Route path="/accordion" element={<Accordion />} />
+        </Routes>
+      </div>
+    </div>
+  );
+}
+
+export default App;

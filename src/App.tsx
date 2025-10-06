@@ -1,8 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import SideBar from "./components/layout/SideBar";
-import TrafficLight from "./components/sample/TrafficLightSample/TrafficLight";
-import JobBoard from "./components/sample/JobBoardSample/JobBoard";
+import TrafficLight from "./components/sample/TrafficLight/TrafficLight";
+import JobBoard from "./components/sample/JobBoard/JobBoard";
 import ColorBox from "./components/sample/Colorbox/ColorBox";
 import Accordion from "./components/sample/Accordion/Accordion";
 

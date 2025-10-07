@@ -9,10 +9,7 @@ function SideBar() {
         aria-label="Sidebar"
       >
         <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
-          <Link
-            to="/"
-            className="flex items-center  ps-2.5 mb-5"
-          >
+          <Link to="/" className="flex items-center  ps-2.5 mb-5">
             <img
               src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
               className="h-6 me-3 sm:h-7"
@@ -23,6 +20,23 @@ function SideBar() {
             </span>
           </Link>
           <ul className="space-y-2 font-medium">
+            <li>
+              <Link
+                to="/contact-form"
+                className=" nav-link ms-3 flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+              >
+                Contact Form
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/tabs"
+                className=" nav-link ms-3 flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+              >
+                Tabs
+              </Link>
+            </li>
+
             <li>
               <Link
                 to="/accordion"

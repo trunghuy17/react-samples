@@ -5,6 +5,8 @@ import TrafficLight from "./components/sample/TrafficLight/TrafficLight";
 import JobBoard from "./components/sample/JobBoard/JobBoard";
 import ColorBox from "./components/sample/Colorbox/ColorBox";
 import Accordion from "./components/sample/Accordion/Accordion";
+import Tabs from "./components/sample/Tabs/Tabs";
+import ContactForm from "./components/sample/ContactForm/ContactForm";
 
 function App() {
   return (
@@ -16,6 +18,9 @@ function App() {
           <Route path="/job-board" element={<JobBoard />} />
           <Route path="/traffic-light" element={<TrafficLight />} />
           <Route path="/color-box" element={<ColorBox />} />
+          <Route path="/tabs" element={<Tabs />} />
+          <Route path="/contact-form" element={<ContactForm />} />
+
         </Routes>
       </div>
     </div>

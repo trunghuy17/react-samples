@@ -1,4 +1,3 @@
-import React from "react";
 import AccordionDemo from "./AccordionDemo";
 
 function Accordion() {
